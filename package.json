@@ -2,9 +2,11 @@
 	"name": "jugaadu-vakil",
 	"version": "0.1.0",
 	"private": true,
+	"homepage": "https://manish-chordia.github.io/jugaadu-vakil",
 	"dependencies": {
 		"babel-plugin-emotion": "^9.2.6",
 		"emotion": "^9.2.6",
+		"gh-pages": "^1.2.0",
 		"react": "^16.4.2",
 		"react-dom": "^16.4.2",
 		"react-emotion": "^9.2.6",
@@ -19,6 +21,8 @@
 		"start": "react-scripts start",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
-		"eject": "react-scripts eject"
+		"eject": "react-scripts eject",
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build"
 	}
 }
