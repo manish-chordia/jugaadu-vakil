@@ -1,6 +1,7 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
 import {css} from 'emotion'
+import {Link} from 'react-router-dom'
 
 const vakilContainer = css({
     padding: 16,
@@ -23,18 +24,24 @@ const infoContainer = css({
     fontSize: 12,
 });
 
+const lawyerName = css({
+    fontSize: 16,
+    marginBottom: 8
+});
+
 const Vakil = ({vakilInfo}) => {
-    const {name, imageUrl, practiceAreas, courts, practicingSince, contactNo, officeAddress, city, state, pincode, registrationNo} = vakilInfo;
+    const {name, imageUrl, practiceAreas, courts, practicingSince, contactNo, officeAddress, city, state, pincode, registrationNo, profileLink} = vakilInfo;
     return(
         <div className={vakilContainer}>
             <div className={imageContainer}>
-                <img className={image} src={imageUrl}/>
+                <img className={image} src={imageUrl} alt=""/>
             </div>
             <div className={infoContainer}>
-                <div>{name}</div>
+                <div className={lawyerName}>{name}</div>
                 <div>{`${city}, ${state}`}</div>
                 <div>{`Practicing since ${practicingSince}`}</div>
                 <div>{`${practiceAreas[0]} + ${practiceAreas.length - 1} more`}</div>
+                <Link to={`/lawyers/${profileLink}`}>View Profile</Link>
             </div>
         </div>
     );

@@ -14,7 +14,8 @@ export default [
 		"city": "Sagar",
 		"state": "Madhya Pradesh",
 		"pincode": 470002,
-		"registrationNo": "ABC001"
+		"registrationNo": "ABC001",
+		"profileLink": "aadesh-kumar-jain"
 	},
 	{
 		"name": "Aakash Rathore",
@@ -33,7 +34,8 @@ export default [
 		"city": "Dhar",
 		"state": "Madhya Pradesh",
 		"pincode": 454001,
-		"registrationNo": "ABC002"
+		"registrationNo": "ABC002",
+		"profileLink": "aakash-rathore"
 	},
 	{
 		"name": "Aashish Kumar Gupta",
@@ -50,7 +52,8 @@ export default [
 		"city": "Khurai",
 		"state": "Madhya Pradesh",
 		"pincode": 470117,
-		"registrationNo": "ABC003"
+		"registrationNo": "ABC003",
+		"profileLink": "aashish-kumar-gupta"
 	},
 	{
 		"name": "Aashish Kumar Suman",
@@ -70,7 +73,8 @@ export default [
 		"officeAddress": "BEHIND JANI TEMPLE, WARD NO.-08, KUMBHRAJ, GUNA.",
 		"city": "Guna",
 		"state": "Madhya Pradesh",
-		"pincode": 473001
+		"pincode": 473001,
+		"profileLink": "aashish-kumar-suman"
 	},
 	{
 		"name": "Aayam Chouhan",
@@ -91,6 +95,7 @@ export default [
 		"officeAddress": "65-SILVER HILLS COLONY, DHAR",
 		"city": "Dhar",
 		"state": "Madhya Pradesh",
-		"pincode": 454001
+		"pincode": 454001,
+		"profileLink": "aayam-chouhan"
 	}
 ]
