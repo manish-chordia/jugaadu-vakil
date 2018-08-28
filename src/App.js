@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
-import VakilsList from './components/VakilsList'
+import VakilsList from './components/VakilsList/VakilsList'
 import VakilProfile from './components/VakilProfile'
 
 class App extends Component {

@@ -1,43 +1,19 @@
 import React, {Component} from 'react'
 import {connect} from 'react-redux'
-import {css} from 'emotion'
 import {Link} from 'react-router-dom'
 
-const vakilContainer = css({
-    padding: 16,
-    boxShadow: '0 2px 2px 0 rgba(0,0,0,.1)',
-    display: 'flex',
-    textAlign: 'left',
-    backgroundColor: 'white',
-    marginBottom: 8
-});
-
-const imageContainer = css({
-    height: 115
-});
-
-const image = css({
-    height: 115
-});
-
-const infoContainer = css({
-    fontSize: 12,
-});
-
-const lawyerName = css({
-    fontSize: 16,
-    marginBottom: 8
-});
+//Styles
+import './VakilsList.css'
 
 const Vakil = ({vakilInfo}) => {
     const {name, imageUrl, practiceAreas, courts, practicingSince, contactNo, officeAddress, city, state, pincode, registrationNo, profileLink} = vakilInfo;
     return(
-        <div className={vakilContainer}>
-            <div className={imageContainer}>
-                <img className={image} src={imageUrl} alt=""/>
+        <div className={'vakil-container'}>
+            <div className={'image-container'}>
+                <img className={'image'} src={imageUrl} alt=""/>
             </div>
-            <div className={infoContainer}>
-                <div className={lawyerName}>{name}</div>
+            <div className={'info-container'}>
+                <div className={'lawyer-name'}>{name}</div>
                 <div>{`${city}, ${state}`}</div>
                 <div>{`Practicing since ${practicingSince}`}</div>
                 <div>{`${practiceAreas[0]} + ${practiceAreas.length - 1} more`}</div>
@@ -63,4 +39,4 @@ class VakilList extends Component {
 
 export default connect(
     (state, props) => ({vakils: state.vakilsData.vakils})
-)(VakilList);
+)(VakilList)
