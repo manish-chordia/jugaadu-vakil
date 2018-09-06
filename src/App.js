@@ -9,14 +9,13 @@ class App extends Component {
 		return (
 			<Router>
 				<div className="App">
-				HomePage
-					<Route exact path="/" render={() => (
+					<Route exact path={process.env.PUBLIC_URL + '/'} render={() => (
 						<h1>HomePage</h1>
 					)}/>
-					<Route exact path='/lawyers' render={() => (
+					<Route exact path={process.env.PUBLIC_URL + '/lawyers'} render={() => (
 						<VakilsList />
 					)}/>
-					<Route exact path='/lawyers/:filter' render={({match}) =>(
+					<Route exact path={process.env.PUBLIC_URL + '/lawyers/:filter'} render={({match}) =>(
                     	<VakilProfile filter={match.params.filter}/>
                 	)}/>
 				</div>
