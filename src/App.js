@@ -9,6 +9,9 @@ class App extends Component {
 		return (
 			<Router>
 				<div className="App">
+					<Route exact path="/" render={() => (
+						<h1>HomePage</h1>
+					)}/>
 					<Route exact path='/lawyers' render={() => (
 						<VakilsList />
 					)}/>
