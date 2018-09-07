@@ -17,7 +17,7 @@ const Vakil = ({vakilInfo}) => {
                 <div>{`${city}, ${state}`}</div>
                 <div>{`Practicing since ${practicingSince}`}</div>
                 <div>{`${practiceAreas[0]} + ${practiceAreas.length - 1} more`}</div>
-                <Link to={`/lawyers/${profileLink}`}>View Profile</Link>
+                <Link to={`${process.env.PUBLIC_URL}/lawyers/${profileLink}`}>View Profile</Link>
             </div>
         </div>
     );
