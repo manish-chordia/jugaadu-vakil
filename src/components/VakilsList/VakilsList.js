@@ -3,13 +3,13 @@ import {connect} from 'react-redux'
 import {Link} from 'react-router-dom'
 
 //Styles
-import './VakilsList.css'
+import styles from './VakilsList.css'
 
 const Vakil = ({vakilInfo}) => {
     const {name, imageUrl, practiceAreas, courts, practicingSince, contactNo, officeAddress, city, state, pincode, registrationNo, profileLink} = vakilInfo;
     return(
         <div className={'vakil-container'}>
-            <div className={'image-container'}>
+            <div>
                 <img className={'image'} src={imageUrl} alt=""/>
             </div>
             <div className={'info-container'}>

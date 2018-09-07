@@ -7,13 +7,9 @@
     margin-bottom: 8px;    
 }
 
-.image-container {
-    height: 115px;
-    width: 115px;
-}
-
 .image {
     height: 115px;
+    width: 115px;
 }
 
 .info-container {
