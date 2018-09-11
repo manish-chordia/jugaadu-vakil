@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import './App.css';
 
 //Components
+import Header from './components/Header'
 import HomePage from './components/HomePage'
 import VakilsList from './components/VakilsList'
 import VakilProfile from './components/VakilProfile'
@@ -12,6 +13,7 @@ class App extends Component {
 		return (
 			<Router>
 				<div className="App">
+					<Header />
 					<Route exact path={process.env.PUBLIC_URL + '/'} render={() => (
 						<HomePage />
 					)}/>

@@ -1,4 +1,6 @@
+@import "./styles/colorbox.css";
+
 .App {
-  background-color: #f1f3f6;
-  height: 100%;
+    background-color: var(--background);
+    height: 100%;
 }

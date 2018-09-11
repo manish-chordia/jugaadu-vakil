@@ -1,0 +1,18 @@
+@import "../../styles/colorbox.css";
+
+.header {
+    padding: 16px;
+    background-color: var(--primary);
+    display: flex;
+    box-shadow: 0 4px 4px rgba(0,0,0,.2);
+}
+
+.ham-burger {
+
+}
+
+.page-title {
+    font-size: 20px;
+    color: var(--on-primary);
+    padding-left: 16px;
+}
