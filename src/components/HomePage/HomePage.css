@@ -1,5 +1,6 @@
 .card-content {
     display: flex;
+    justify-content: space-between;
 }
 
 .card-title {
@@ -25,7 +26,7 @@
 .card-action-button-container {
     font-size: 14px;
     color: var(--primary);
-    margin-top: 16px;
+    margin-top: 8px;
     padding: 10px 8px;
     display: inline-block;
 }
