@@ -1,0 +1,32 @@
+:root{
+	--font-regular: 'Roboto', "Droid Sans", "Helvetica Neue", Arial, Helvetica, sans-serif;
+	--font-medium: "Roboto Medium", Roboto-Medium, "Droid Sans", HelveticaNeue-Medium, "Helvetica Neue Medium", sans-serif-medium;
+
+	--defaultFontFamily: var(--font-regular);
+	--defaultFontFamilyMedium: var(--font-medium);
+
+	--font-size-title: 24px;
+	--font-size-title2: 18px;
+	--font-size-primary: 16px;
+	--font-size-sub-heading: 16px;
+	--font-size-text-link: 14px;
+	--font-size-medium: 14px;
+	--font-size-medium2: 20px;
+	--font-size-button: 14px;
+	--font-size-offers: 12px;
+	--font-size-caution: 12px;
+	--font-size-body: 12px;
+	--font-size-body2: 10px;
+
+	/* Text Colors*/
+	--text-title: var(--black_87);
+	--text-title2: var(--black);
+	--text-primary: var(--black);
+	--text-sub-heading-dark: var(--white);
+	--text-link: var(--azul);
+	--text-button: var(--white);
+	--text-offers: var(--green);
+	--text-caution: var(--orange_yellow);
+	--text-body: var(--warm_grey);
+	--text-body2: var(--black_two);
+}

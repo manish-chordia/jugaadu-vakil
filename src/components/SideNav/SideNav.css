@@ -1,0 +1,36 @@
+@import "../../styles/colorbox.css";
+
+.side-nav{
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: var(--background);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    transform: translateX(-103%);
+    box-shadow: 1px 0px 16px rgba(0,0,0,0.2);
+}
+
+.side-nav-open {
+    transform: translateX(0%);
+}
+
+.side-nav-link {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--on-background);
+    display: block;
+    transition: 0.3s;
+}
+
+.close-icon {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    padding: 16px 8px 8px 32px;
+}
