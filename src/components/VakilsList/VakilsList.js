@@ -23,7 +23,7 @@ const Vakil = ({vakilInfo}) => {
                 </div>
             </div>
             <div className="card-button-container">
-                <Link to={`${process.env.PUBLIC_URL}/lawyers/${profileLink}`} className="card-action-button">View Profile</Link>
+                <Link to={`${process.env.PUBLIC_URL}/lawyers/${profileLink}`} className="card-action-button">VIEW PROFILE</Link>
             </div>
         </Card>
     );
