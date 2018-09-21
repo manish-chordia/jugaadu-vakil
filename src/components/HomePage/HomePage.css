@@ -28,7 +28,6 @@
 
 .card-action-button-container {
     font-size: 14px;
-    color: var(--primary);
     margin-top: 8px;
     padding: 10px 8px;
     display: inline-block;
@@ -37,4 +36,5 @@
 .card-action-button {
     text-decoration: none;
     font-family: var(--font-medium);
+    color: var(--primary);
 }
