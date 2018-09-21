@@ -59,7 +59,7 @@ class HomePage extends React.PureComponent {
                         </div>
                     </div>
                     <div className="card-action-button-container">
-                        <Link to={`${process.env.PUBLIC_URL}/lawyers`} className="card-action-button">BROWSE</Link>
+                        <Link to={`${process.env.PUBLIC_URL}/browse`} className="card-action-button">BROWSE</Link>
                     </div>
                 </Card>
             </div>

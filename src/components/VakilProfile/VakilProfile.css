@@ -1,14 +1,7 @@
 .vakil-profile {
     padding: 16px;
+    margin-top: 8px;
     background-color: white;
-}
-
-.profile-container {
-    display: flex;
-}
-
-.info-container {
-    font-size: 12px;
 }
 
 .lawyer-name {
@@ -22,11 +15,16 @@
 
 .title {
     font-size: 16px;
-    font-weight: 800;
     border-bottom: 1px solid #d9d9d9;
     margin-bottom: 8px;
 }
 
 .profile-section-text {
     font-size: 14px;
+    color: #878787;
+    text-align: justify;
+}
+
+.registration-number {
+    margin-bottom: 16px;
 }
